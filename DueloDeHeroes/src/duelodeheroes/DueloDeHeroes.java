@@ -18,9 +18,7 @@ public class DueloDeHeroes {
         Heroe b = new Heroe("Golem", 130, 12);
         
         while (a.estaVivo() && b.estaVivo()) {
-            if (a.estaVivo()) {
-                a.atacar(b);
-            }
+            a.atacar(b);
             if (b.estaVivo()) {
                 b.atacar(a);
             }
