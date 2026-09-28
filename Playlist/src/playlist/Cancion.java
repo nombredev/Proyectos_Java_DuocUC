@@ -63,6 +63,6 @@ public class Cancion {
             textoLongitud = "larga";
         }
         
-        System.out.println(this.getArtista() + " - " + this.getTitulo() + " (" + this.duracionFormato() + ") [" + textoLongitud + "]");
+        System.out.println(this.getTitulo() + " - " + this.getArtista() + " (" + this.duracionFormato() + ") [" + textoLongitud + "]");
     }
 }
